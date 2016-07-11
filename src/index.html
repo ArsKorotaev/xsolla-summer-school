@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello, Gulp!</title>
+    <meta charset="utf-8">
+    <script src="lib/jquery/dist/jquery.min.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="lib/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="lib/backbone/backbone-min.js"></script>
+    <script type="application/javascript" src="scripts/users.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<script type="text/javascript">
+
+
+    var collectionList = new usersView ({
+        model: users
+    });
+
+    $ ('body').append (collectionList.render ());
+
+    users.fetch ();
+
+</script>
+</body>
+</html>

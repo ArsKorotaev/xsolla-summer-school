@@ -1,0 +1,16 @@
+
+
+$tableFontSize: 14pt;
+$tableTextColor: rgba(0, 0, 0, 0.75);
+
+.user_id {
+  color: $tableTextColor;
+}
+.user_name {
+  color: $tableTextColor;
+}
+
+td {
+  font-size: $tableFontSize;
+  font-family: Arial;
+}
