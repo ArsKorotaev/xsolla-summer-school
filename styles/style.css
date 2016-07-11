@@ -1,0 +1,14 @@
+.user_id {
+  color: rgba(0, 0, 0, 0.75);
+}
+.user_name {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+td {
+  font-size: 14pt;
+}
+
+body {
+  font-family: Arial;
+}

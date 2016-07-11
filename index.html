@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>!DOCTYPE</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
+    <script type="text/javascript" src="http://backbonejs.org/backbone-min.js"></script>
+    <script type="application/javascript" src="scripts/users.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<script type="text/javascript">
+
+
+    var collectionList = new usersView ({
+        model: users
+    });
+
+    $ ('body').append (collectionList.render ());
+
+    users.fetch ();
+
+</script>
+</body>
+</html>
