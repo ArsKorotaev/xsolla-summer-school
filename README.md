@@ -1,1 +1,1 @@
-# summer-school-rest
+# Xsolla Summer School: сборка проекта
